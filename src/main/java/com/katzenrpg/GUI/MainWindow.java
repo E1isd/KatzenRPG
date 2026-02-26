@@ -6,7 +6,7 @@ public class MainWindow extends JFrame {
 
     public MainWindow() {
         setTitle("KatzenRPG");
-        setSize(800, 600);
+        setSize(1920, 1080); // Auflösung 1920x1080 (Temporär, später anpassbar)
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
 
