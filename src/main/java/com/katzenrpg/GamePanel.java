@@ -10,5 +10,6 @@ public class GamePanel extends JPanel {
         super.paintComponent(g);
 
         g.drawString("Willkommen im KatzenRPG!", 20, 20);
+        
     }
 }
