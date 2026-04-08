@@ -11,8 +11,9 @@ public class MainWindow extends JFrame {
                 GraphicsEnvironment.getLocalGraphicsEnvironment().getScreenDevices()[0];
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
+        setLayout(new BorderLayout());
+        add(new GamePanel(), BorderLayout.CENTER);
         device.setFullScreenWindow(this);
-        add(new GamePanel());
     }
 
     public void showWindow() {
